@@ -5,7 +5,6 @@ weight = 1
 pre = "<b>1.1 </b>"
 disableToc = true
 +++
-
 Acoustic communication is fundamental to the behaviour of many species. If we want to understand animal behaviour we need tools that allow us to objectively examine the details of vocalisations. What information are they sharing, and how is it encoded?
 
 Often, acoustic communication is structured as a temporal sequence of distinct acoustic units (e.g. syllables), where information is encoded in the _types_ of units and sometimes their _temporal arrangement_ (syntax). In such cases, this is the flowchart for acoustic analysis:
