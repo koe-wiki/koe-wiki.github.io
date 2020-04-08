@@ -1,12 +1,12 @@
 +++
-title = "Welcome to Koe's Wiki"
+title = "Welcome to Koe's Documentation"
 date = 2020-04-03T12:34:36+13:00
 weight = 1
 chapter = true
 pre = "<b>X. </b>"
 +++
 
-Koe Wiki
+Koe User Manual
 =============
 
 ![Koe works in most browsers, but has been tested most extensively in Chrome. If you experience issues, try Chrome first, then contact us.](https://i.ibb.co/7rp86F3/Koe-works-with-Chrome-only-3.png)

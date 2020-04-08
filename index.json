@@ -8,17 +8,17 @@
 },
 {
 	"uri": "http://koe-wiki.github.io/user-manual/",
-	"title": "User&#39;s Manual",
+	"title": "User Manual",
 	"tags": [],
 	"description": "",
-	"content": "Koe features tools for visualising, segmenting, measuring, classifying, data-filtering and exporting acoustic units, and analysing sequence structure (syntax). It is an end-to-end acoustic database solution, especially suitable for animal species with distinct acoustic units.\nYou can use it on any device at koe.io.ac.nz, which makes it ideal for collaboration, education, and citizen science.\nFor a quick overview and demonstration of program features, see this video:\n  Table of content \rWhy use Koe?\r\r\r\rWhy use Koe?\r\r\r\r\rOverview of Koe workflow\r\r\r\r\rNavigating Koe\r\r\r\r\rUser and database control\r\r\r\r\rSongs control\r\r\r\r\r\rOverview of Koe workflow\r\r\r\r\rNavigating Koe\r\r\r\r\rUser and database control\r\r\r\r\rSongs control\r\r\r\r\r"
+	"content": "Koe features tools for visualising, segmenting, measuring, classifying, data-filtering and exporting acoustic units, and analysing sequence structure (syntax). It is an end-to-end acoustic database solution, especially suitable for animal species with distinct acoustic units.\nYou can use it on any device at koe.io.ac.nz, which makes it ideal for collaboration, education, and citizen science.\nFor a quick overview and demonstration of program features, see this video:\n  Table of content \rWhy use Koe?\r\r\r\r\rOverview of Koe workflow\r\r\r\r\rNavigating Koe\r\r\r\r\rUser and database control\r\r\r\r\rSongs control\r\r\r\r\rHAHAHAHAHAHAHA\r\r\r\r\r"
 },
 {
 	"uri": "http://koe-wiki.github.io/",
-	"title": "Welcome to Koe&#39;s Wiki",
+	"title": "Welcome to Koe&#39;s Documentation",
 	"tags": [],
 	"description": "",
-	"content": "Koe Wiki Koe is open-source web-based software for analysing animal vocalisations.\nRead the Methods in Ecology and Evolution paper here. Please cite this paper if you publish using Koe\nTable of content \rUser\u0026#39;s Manual\r\r\r\rWhy use Koe?\r\r\r\r\rOverview of Koe workflow\r\r\r\r\rNavigating Koe\r\r\r\r\rUser and database control\r\r\r\r\rSongs control\r\r\r\r\r\rAcoustic features\r\r\r\rFrequency domain features\r\r\r\r\rTime domain features\r\r\r\r\rPerceptual based features\r\r\r\r\r\r"
+	"content": "Koe User Manual Koe is open-source web-based software for analysing animal vocalisations.\nRead the Methods in Ecology and Evolution paper here. Please cite this paper if you publish using Koe\nTable of content \rUser Manual\r\r\r\rWhy use Koe?\r\r\r\r\rOverview of Koe workflow\r\r\r\r\rNavigating Koe\r\r\r\r\rUser and database control\r\r\r\r\rSongs control\r\r\r\r\rHAHAHAHAHAHAHA\r\r\r\r\r\rAcoustic features\r\r\r\rFrequency domain features\r\r\r\r\rTime domain features\r\r\r\r\rPerceptual based features\r\r\r\r\r\r"
 },
 {
 	"uri": "http://koe-wiki.github.io/user-manual/why-use-koe/",
@@ -75,6 +75,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Upload songs Click this link to download NZ bellbird songs to try out Upload songs feature and subsequent steps\nIf you have already-divided song files on your computer, you can upload these directly. On the navigation pane, click Upload songs and select up to 100 WAV files at once to upload.\nFor raw recordings that need to be divided into songs, see next step.\nUpload raw recordings and divide into songs Click this link to download raw (unsplit) recordings of bellbird song to try Upload \u0026amp; split raw recordings\nTo upload a raw recording and divide it into song selections, do the following:\nOn the navigation pane, click Upload \u0026amp; split raw recording\n  In the Upload raw recording dialogue box, Click Upload (WAV only)\n  Select the recording you want to upload\n  Click Open\n  After selecting a file to upload, an Upload raw recording dialogue appears with Track name and Record date fields. The track name is automatically filled in based on the wav filename. For example, Raw_Recording_001.wav will by default appear as Raw_Recording_001.\n Click in the Track name field to modify the track name, if you wish.\n  Click in the Record date field to modify the date. By default, the record date is set as the date of recording upload to Koe.\n  Click Submit track info.\n   For recordings with more than one channel, select the desired channel.\n  Play the recording with the playback controls, looking for songs to segment. To play from the beginning, click Play button.\n  You can also play from a specific timepoint by clicking that point, then clicking Play.\n  With the controls beneath the spectrogram, you can:\n Adjust spectrogram zoom.\n  Adjust spectrogram colour map.\n  Adjust playback speed.\n  Adjust spectrogram contrast.\n  To create a song selection simply drag over the spectrogram to create a selection box.  Click the selection box to play it. Adjust the selection box endpoints by holding Shift and dragging the box handles that appear.\nFor each selection you make, a row appears in the table beneath.\nFill in annotation columns as desired by double-clicking in those cells.   You can set an automatic naming scheme for segmented songs. Click the Naming pattern box to create a naming scheme with any combination of the following components: Track name, Year, Month, Day, Order. You can also add custom components to the scheme, such as text strings, if you wish. Click Rename all to apply the naming scheme to all existing song selections.\n  Once you’ve finished making song selections, click Save to upload the songs to the database. The raw recording will not be saved, only songs – so make sure you finish partitioning all songs in one go.\n  \rRecordings too big to upload? Use this tool to automatically split your wav files\n\rSome bioacoustics researchers work with looong recordings (e.g. passive acoustic monitoring). Very large files can be cumbersome. But don\u0026rsquo;t worry! Yukio Fukuzawa has heard your cries and has come galloping to our rescue with a simple tool for automatically splitting large wav files into smaller wav files. You specify how long you want the audio sections to be, and how many seconds of overlap between sections.\nTo run the tool you will need to install Python. After that it\u0026rsquo;s just a simple line of code that you type into your command prompt.\nThe tool and instructions are found here: https://github.com/fzyukio/split-songs\n"
+},
+{
+	"uri": "http://koe-wiki.github.io/user-manual/blah/",
+	"title": "HAHAHAHAHAHAHA",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "http://koe-wiki.github.io/categories/",

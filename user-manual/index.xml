@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>User&#39;s Manual on Koe Documentation</title>
+    <title>User Manual on Koe Documentation</title>
     <link>http://koe-wiki.github.io/user-manual/</link>
-    <description>Recent content in User&#39;s Manual on Koe Documentation</description>
+    <description>Recent content in User Manual on Koe Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-nz</language>
     <lastBuildDate>Fri, 03 Apr 2020 12:34:36 +1300</lastBuildDate>
@@ -65,6 +65,15 @@ Add collaborators to a database and set permission levels Back to table of conte
 If you have already-divided song files on your computer, you can upload these directly. On the navigation pane, click Upload songs and select up to 100 WAV files at once to upload.
 For raw recordings that need to be divided into songs, see next step.
 Upload raw recordings and divide into songs Click this link to download raw (unsplit) recordings of bellbird song to try Upload &amp;amp; split raw recordings</description>
+    </item>
+    
+    <item>
+      <title>HAHAHAHAHAHAHA</title>
+      <link>http://koe-wiki.github.io/user-manual/blah/</link>
+      <pubDate>Fri, 03 Apr 2020 12:34:36 +1300</pubDate>
+      
+      <guid>http://koe-wiki.github.io/user-manual/blah/</guid>
+      <description></description>
     </item>
     
   </channel>

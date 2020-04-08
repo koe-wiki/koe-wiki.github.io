@@ -1,5 +1,5 @@
 +++
-title = "User's Manual"
+title = "User Manual"
 date = 2020-04-03T12:34:36+13:00
 weight = 1
 chapter = false
