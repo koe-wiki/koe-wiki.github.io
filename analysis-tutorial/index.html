@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.68.3" />
+    <meta name="description" content="">
+<meta name="author" content="Infocare Solutions">
+
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+    <title>Analysis Tutorial: Case Study of NZ bellbird song :: Koe Documentation</title>
+
+    
+    <link href="/css/nucleus.css?1586406323" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1586406323" rel="stylesheet">
+    <link href="/css/hybrid.css?1586406323" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1586406323" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1586406323" rel="stylesheet">
+    <link href="/css/auto-complete.css?1586406323" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1586406323" rel="stylesheet">
+    <link href="/css/theme.css?1586406323" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1586406323" rel="stylesheet">
+    
+      <link href="/css/theme-red.css?1586406323" rel="stylesheet">
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1586406323"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/analysis-tutorial/">
+    <nav id="sidebar" class="showVisitedLinks">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <img src="https://i.ibb.co/s608SrX/Koe-Logo-In-Circle-with-Word-next-to-it-SMALLER4.png"/>
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1586406323"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1586406323"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/koe-wiki.github.io\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1586406323"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/user-manual/" title="User Manual" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/user-manual/">
+          <b>1. </b>User Manual
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/features/" title="Acoustic features" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/features/">
+          <b>2. </b>Acoustic features
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/features/time-domain/" title="Frequency domain features" class="dd-item ">
+        <a href="/features/time-domain/">
+        <b>2.1 </b>Frequency domain features
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/features/frequency-domain/" title="Time domain features" class="dd-item ">
+        <a href="/features/frequency-domain/">
+        <b>2.2 </b>Time domain features
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/features/perceptual-features/" title="Perceptual based features" class="dd-item ">
+        <a href="/features/perceptual-features/">
+        <b>2.3 </b>Perceptual based features
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/analysis-tutorial/" title="Analysis Tutorial: Case Study of NZ bellbird song" class="dd-item 
+        parent
+        active
+        
+        ">
+      <a href="/analysis-tutorial/">
+          <b>3. </b>Analysis Tutorial: Case Study of NZ bellbird song
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/faqs/" title="Frequently Asked Questions" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/faqs/">
+          <b>4. </b>Frequently Asked Questions
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/whats-new/" title="What&#39;s new in Koe?" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/whats-new/">
+          <b>5. </b>What&#39;s new in Koe?
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" href="http://koe-wiki.github.io/"><i class='fas fa-home'></i> Home page</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+      
+      
+        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            <a href='/'>Koe Documentation</a> > Analysis Tutorial: Case Study of NZ bellbird song
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#getting-started">Getting started</a></li>
+    <li><a href="#trying-out-the-filter">Trying out the filter</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#find-the-total-number-of-classes">Find the total number of classes</a></li>
+    <li><a href="#make-a-database-subset-for-males">Make a database subset for males</a></li>
+    <li><a href="#make-a-database-subset-for-females">Make a database subset for females</a></li>
+    <li><a href="#find-how-many-classes-are-sung-by-males">Find how many classes are sung by males</a></li>
+    <li><a href="#find-how-many-classes-are-sung-by-females">Find how many classes are sung by females</a></li>
+    <li><a href="#calculating-repertoire-overlap">Calculating repertoire overlap</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#make-a-subset-for-males-on-lbi">Make a subset for males on LBI</a></li>
+    <li><a href="#make-a-subset-for-males-on-taw">Make a subset for males on TAW</a></li>
+    <li><a href="#find-repertoire-size-for-males-on-lbi">Find repertoire size for males on LBI</a></li>
+    <li><a href="#find-repertoire-size-for-males-on-taw">Find repertoire size for males on TAW</a></li>
+    <li><a href="#calculate-lbi-taw-repertoire-overlap">Calculate LBI-TAW repertoire overlap</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#make-a-subset-collection-for-males-on-tmi">Make a subset collection for <em>males</em> on TMI:</a></li>
+    <li><a href="#make-a-subset-collection-for-females-on-tmi">Make a subset collection for <em>females</em> on TMI:</a></li>
+    <li><a href="#produce-cspade-table-and-network-for-males-on-tmi">Produce cSPADE table and network for <em>males</em> on TMI:</a></li>
+    <li><a href="#produce-cspade-table-and-network-for-females-on-tmi">Produce cSPADE table and network for <em>females</em> on TMI:</a></li>
+    <li><a href="#compare-male-and-female-networks">Compare male and female networks</a></li>
+    <li><a href="#explore-male-cspade-table">Explore male cSPADE table</a></li>
+    <li><a href="#explore-female-cspade-table">Explore female cSPADE table</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Analysis Tutorial: Case Study of NZ bellbird song
+            </h1>
+          
+
+        
+
+
+
+
+	<p><img src="https://i.ibb.co/ZNT7vyJ/Bellbirds-On-Stick.jpg" alt="">
+<strong>NZ bellbird (<em>Anthornis melanura</em>) male (front) and female (back)</strong>.</p>
+<p>Here we give a detailed walk-through tutorial of the analyses performed in Fukuzawa et al. (2020) <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13336">https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13336</a>.</p>
+<h1 id="table-of-contents">Table of Contents</h1>
+<ul>
+<li><a href="#getting-started">Getting started</a></li>
+<li><a href="#trying-out-the-filter">Trying out the filter</a></li>
+</ul>
+<ul>
+<li><a href="#what-is-the-overall-unit-diversity-for-male-and-female-bellbirds-across-all-seven-sites-">What is the overall unit diversity for male and female bellbirds across all seven sites?</a>
+<ul>
+<li><a href="#find-the-total-number-of-classes">Find the total number of classes</a></li>
+<li><a href="#make-a-database-subset-for-males">Make a database subset for males</a></li>
+<li><a href="#make-a-database-subset-for-females">Make a database subset for females</a></li>
+<li><a href="#find-how-many-classes-are-sung-by-males">Find how many classes are sung by males</a></li>
+<li><a href="#find-how-many-classes-are-sung-by-females">Find how many classes are sung by females</a></li>
+<li><a href="#calculating-repertoire-overlap">Calculating repertoire overlap</a></li>
+</ul>
+</li>
+<li><a href="#how-many-male-unit-types-are-now-shared-between-tawharanui-and-source-population-hauturu-">How many male unit types are now shared between Tawharanui and source population Hauturu?</a>
+<ul>
+<li><a href="#make-a-subset-for-males-on-lbi">Make a subset for males on LBI</a></li>
+<li><a href="#make-a-subset-for-males-on-taw">Make a subset for males on TAW</a></li>
+<li><a href="#find-repertoire-size-for-males-on-lbi">Find repertoire size for males on LBI</a></li>
+<li><a href="#find-repertoire-size-for-males-on-taw">Find repertoire size for males on TAW</a></li>
+<li><a href="#calculate-lbi-taw-repertoire-overlap">Calculate LBI-TAW repertoire overlap</a></li>
+</ul>
+</li>
+<li><a href="#evaluating-song-structure-in-bellbirds">Evaluating song structure in bellbirds</a>
+<ul>
+<li><a href="#make-a-subset-collection-for-males-on-tmi-">Make a subset collection for <em>males</em> on TMI:</a></li>
+<li><a href="#make-a-subset-collection-for-females-on-tmi-">Make a subset collection for <em>females</em> on TMI:</a></li>
+<li><a href="#produce-cspade-table-and-network-for-males-on-tmi-">Produce cSPADE table and network for <em>males</em> on TMI:</a></li>
+<li><a href="#produce-cspade-table-and-network-for-females-on-tmi-">Produce cSPADE table and network for <em>females</em> on TMI:</a></li>
+<li><a href="#compare-male-and-female-networks">Compare male and female networks</a></li>
+<li><a href="#explore-male-cspade-table">Explore male cSPADE table</a></li>
+<li><a href="#explore-female-cspade-table">Explore female cSPADE table</a></li>
+</ul>
+</li>
+<li><a href="#tutorial-conclusions">Tutorial conclusions</a></li>
+</ul>
+<p><small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small></p>
+<h2 id="getting-started">Getting started</h2>
+<p>To follow along in <em>Koe</em> with the same dataset:</p>
+<ol>
+<li>
+<p>Click <a href="https://drive.google.com/open?id=1hiYB_-ZUsgZ4FeQVFGWm0WciqUtBFYPm">here</a> to download a zip file of database labels.</p>
+</li>
+<li>
+<p>Go to <em>Koe</em> (<a href="https://koe.io.ac.nz">https://koe.io.ac.nz</a>).</p>
+</li>
+<li>
+<p>Sign in (if you aren&rsquo;t already).</p>
+</li>
+<li>
+<p>Navigate to <em>Manage your database</em>.</p>
+</li>
+<li>
+<p>Enter invitation code “KOE Case Study” (without quotes)</p>
+</li>
+<li>
+<p>Select the <strong>Bellbirds_Case_Study</strong> database from the <strong>Database</strong> panel by clicking the round checkbox next to its name.</p>
+</li>
+<li>
+<p>Click <strong>Load ZIP</strong> beneath the <strong>Saved versions</strong> panel.</p>
+</li>
+<li>
+<p>Locate the zip file you downloaded in step 1.</p>
+</li>
+<li>
+<p>Click <strong>Open</strong>.</p>
+</li>
+</ol>
+<p><img src="https://i.ibb.co/r7L9y3J/Loading-Label-Zip.png" alt=""></p>
+<p>You have now loaded the label data for the units in the database and will be able to see unit labels.</p>
+<p><em><strong>Please note: by accessing the datasets in this tutorial you agree not to use the data in any form of publication, except by express consent of the authors Wesley Webb and Yukio Fukuzawa.</strong></em></p>
+<h2 id="trying-out-the-filter">Trying out the filter</h2>
+<ol>
+<li>
+<p>Navigate to <em>Unit table</em> view (<em>Classify &amp; manage units</em> &gt; <em>Unit table</em>)</p>
+</li>
+<li>
+<p>Make sure that the current database is <strong>Bellbirds_Case_Study</strong>; select it from the <strong>Current database</strong> dropdown on the navigation pane if not.</p>
+</li>
+</ol>
+<p>Data can be explored quickly using Koe&rsquo;s filter, which can combine different criteria specified by a regular expression. For example, <code>duration:&lt;100; sex:F; label:Downsqueak</code> returns only units with duration shorter than 100ms, vocalised by female birds, and label containing <em>Downsqueak</em>. Try it:</p>
+<p><img src="https://i.ibb.co/JKzvjgp/Case-Study-Filter-Before.png" alt="">
+<img src="https://i.ibb.co/rwn7zBW/Grey-Down-Arrow.png" alt="">
+<img src="https://i.ibb.co/RSTk3GC/Case-Study-Filter-After.png" alt=""></p>
+<p><strong>Below, we use the filter to compare male and female unit diversity across the whole metapopulation, then between males at two sites.</strong></p>
+<h1 id="what-is-the-overall-unit-diversity-for-male-and-female-bellbirds-across-all-seven-sites">What is the overall unit diversity for male and female bellbirds across all seven sites?</h1>
+<p><a href="#table-of-contents">Back to table of contents</a></p>
+<h2 id="find-the-total-number-of-classes">Find the total number of classes</h2>
+<p><em>Exemplars</em> view (<em>Classify &amp; manage units</em> &gt; <em>Exemplars</em>) displays the catalogue of unit classes, with a count of classes top left (where the arrow is pointing). This reveals <strong>754</strong> fine-scale classes in total:</p>
+<p><img src="https://i.ibb.co/4JD2zm1/Case-Study-Diversity1.png" alt=""></p>
+<p><strong>Now we want to see how many of the 754 are sung by males, how many by females, and how many are shared between the sexes.</strong></p>
+<h2 id="make-a-database-subset-for-males">Make a database subset for males</h2>
+<p>Make subset &lsquo;collections&rsquo; by sex as follows:</p>
+<ol>
+<li>Go to <em>Classify &amp; manage units</em> &gt; <em>Unit table</em></li>
+</ol>
+<p><img src="https://i.ibb.co/fXjGTrj/Case-Study-Diversity-MFSubset-1-2.png" alt=""></p>
+<ol start="2">
+<li>
+<p>Type <code>sex:M</code> in the filter box to filter for all units sung by males</p>
+</li>
+<li>
+<p>Select the checkbox header to select all filtered rows.</p>
+</li>
+</ol>
+<p><img src="https://i.ibb.co/9N3nHgL/Case-Study-Diversity-MFSubset-2-2.png" alt=""></p>
+<ol start="4">
+<li>Click <strong>Make a Collection from selected units</strong> on the active controls pane.</li>
+</ol>
+<p><img src="https://i.ibb.co/QDPfky8/Case-Study-Diversity-MFSubset-3.png" alt=""></p>
+<ol start="5">
+<li>Type a unique name for the collection (e.g. &ldquo;yourusername_Bellbirds_Males&rdquo;). Note the Collection name must be unique; if the collection name has already been created (by any users, not just you), the name will not &lsquo;take&rsquo;.</li>
+</ol>
+<p><img src="https://i.ibb.co/X4sndkh/Case-Study-Diversity-MFSubset-4.png" alt=""></p>
+<ol start="6">
+<li>
+<p>Click <strong>Set</strong>.</p>
+</li>
+<li>
+<p><strong>Deselect</strong> the selected rows by clicking the checkbox header or typing <code>ctrl</code>+<em>`</em>.</p>
+</li>
+</ol>
+<h2 id="make-a-database-subset-for-females">Make a database subset for females</h2>
+<p>Make a subset for units sung by <em>females</em> in exactly the same way:</p>
+<ol>
+<li>
+<p>Replace the filter with<code>sex:F</code> to filter for all units sung by females.</p>
+</li>
+<li>
+<p>Select the checkbox header to select all filtered rows.</p>
+</li>
+<li>
+<p>Click <strong>Make a Collection from selected units</strong></p>
+</li>
+<li>
+<p>Type a unique name for the collection (e.g. &ldquo;yourusername_Bellbirds_Females&rdquo;)</p>
+</li>
+<li>
+<p>Click <strong>Set</strong>.</p>
+</li>
+<li>
+<p><strong>Deselect</strong> the selected rows by clicking the checkbox header or typing <code>ctrl</code>+<em>`</em>.</p>
+</li>
+</ol>
+<h2 id="find-how-many-classes-are-sung-by-males">Find how many classes are sung by males</h2>
+<p>Go back to <em>Exemplars</em> view (<em>Classify &amp; manage units_&gt;_Exemplars</em>).</p>
+<ol>
+<li>
+<p>Click on the <strong>Current database</strong> dropdown in the active controls pane.</p>
+</li>
+<li>
+<p>Select the male subset Collection you made.</p>
+</li>
+</ol>
+<p>The class count at the top left (where the arrow is pointing) shows there are <strong>517</strong> fine-scale classes for males:</p>
+<p><img src="https://i.ibb.co/nQLTxNS/Case-Study-Diversity-All-Mal.png" alt=""></p>
+<h2 id="find-how-many-classes-are-sung-by-females">Find how many classes are sung by females</h2>
+<p>Repeat the process for the female subset. The class count shows there are <strong>415</strong> fine-scale classes for females:</p>
+<p><img src="https://i.ibb.co/71kmqch/Case-Study-Diversity-All-Fem.png" alt=""></p>
+<h2 id="calculating-repertoire-overlap">Calculating repertoire overlap</h2>
+<p>If there are <strong>754</strong> fine-scale classes overall, with <strong>517</strong> sung by males and <strong>415</strong> sung by females, there must be <strong>178</strong> (24%) sung by both (517 + 415 – 754 = 178).</p>
+<p>Here&rsquo;s another slightly more involved question:</p>
+<h1 id="how-many-male-unit-types-are-now-shared-between-tawharanui-and-source-population-hauturu">How many male unit types are now shared between Tawharanui and source population Hauturu?</h1>
+<p><a href="#table-of-contents">Back to table of contents</a></p>
+<p><img src="https://i.ibb.co/KsVqhL2/LBI-TAW-Headerimage.png" alt=""></p>
+<p>In 2005, bellbirds from Hauturu (also known as Little Barrier Island; <strong>LBI</strong>) naturally recolonized Tawharanui Peninsula (<strong>TAW</strong>) following pest control. At that point, repertoires of source and founder populations were indistinguishable (Brunton et al., 2008). After a decade of potential cultural divergence, it is of interest to assess the <strong>current degree of repertoire overlap between the sites</strong>.</p>
+<p>We will do this for males.</p>
+<p><strong>Note:</strong> All our songs have filenames that start with a three-character site name (<code>LBI</code> and <code>TAW</code> in this case) followed by an <code>_</code>. We use this feature to filter for songs from different sites.</p>
+<h2 id="make-a-subset-for-males-on-lbi">Make a subset for males on LBI</h2>
+<p>First we will go to <em>Unit table</em> view (<em>Classify &amp; manage units</em> &gt; <em>Unit table</em>) and make a &lsquo;collection&rsquo; containing units sung by males from LBI:</p>
+<ol>
+<li>
+<p>Type <code>sex:M; song:LBI_</code> in the filter.</p>
+</li>
+<li>
+<p>In the resulting unit table, select all rows by clicking the checkbox header.</p>
+</li>
+<li>
+<p>Click <strong>Make a Collection from selected units</strong> on the controls pane.</p>
+</li>
+</ol>
+<p><img src="https://i.ibb.co/Rv6fk4W/Filtering-Making-Collections-LBI.png" alt=""></p>
+<ol start="4">
+<li>
+<p>Name the collection something logical and unique (e.g. &ldquo;yourusername_LBI_M&rdquo;) and click <strong>Set</strong>. Note the Collection name must be unique; if the collection name has already been created (by any users, not just you), the name will not &lsquo;take&rsquo;.
+<img src="https://i.ibb.co/hCGJ47q/Name-Collection1.png" alt=""></p>
+</li>
+<li>
+<p>Deselect all rows by unchecking the checkbox header, or pressing <code>Ctrl</code>+<em>`</em></p>
+</li>
+</ol>
+<h2 id="make-a-subset-for-males-on-taw">Make a subset for males on TAW</h2>
+<ol>
+<li>
+<p>Replace the filter with <code>sex:M; song:TAW_</code></p>
+</li>
+<li>
+<p>In the resulting unit table, select all rows by clicking the checkbox header</p>
+</li>
+<li>
+<p>Click <strong>Make a Collection from selected units</strong> on the controls pane</p>
+</li>
+</ol>
+<p><img src="https://i.ibb.co/c24y9Cg/Filtering-Making-Collections-TAW.png" alt=""></p>
+<ol start="4">
+<li>
+<p>Name the collection something logical and unique (e.g. &ldquo;yourusername_TAW_M&rdquo;) and click <strong>Set</strong>
+<img src="https://i.ibb.co/5L0Mfcc/Name-Collection2.png" alt=""></p>
+</li>
+<li>
+<p>Deselect all rows by unchecking the checkbox header, or pressing <code>Ctrl</code>+<em>`</em>.</p>
+</li>
+</ol>
+<h2 id="find-repertoire-size-for-males-on-lbi">Find repertoire size for males on LBI</h2>
+<p>To find the repertoire size of the male LBI collection, go to <em>Exemplars</em> view (<em>Classify &amp; manage units</em> &gt; <em>Exemplars</em>):</p>
+<ol>
+<li>
+<p>Click on the current database dropdown.</p>
+</li>
+<li>
+<p>Select your collection for LBI males, whatever you named it.</p>
+</li>
+<li>
+<p>In the top left (where the arrow is pointing) is the count of class types in the collection. In this case, <strong>141</strong> male fine-scale unit classes on LBI:</p>
+</li>
+</ol>
+<p><img src="https://i.ibb.co/dtNQL6K/Case-Study-Diversity-LBI-M.png" alt=""></p>
+<ol start="4">
+<li>Export the <em>Exemplars</em> view data as a <code>.csv</code> file. Click <strong>Export entire table (csv)</strong> on the active controls pane.</li>
+</ol>
+<p><img src="https://i.ibb.co/mNRnGfq/Export-Entire-Table-with-Clickerhand.png" alt=""></p>
+<h2 id="find-repertoire-size-for-males-on-taw">Find repertoire size for males on TAW</h2>
+<p>Open the Tawharanui (TAW) male collection in <em>Exemplars</em> view (<em>Classify &amp; manage units &gt; Exemplars</em>) exactly as previous:</p>
+<ol>
+<li>
+<p>Click on the <strong>Current database</strong> dropdown</p>
+</li>
+<li>
+<p>Select your collection for TAW males, whatever you named it</p>
+</li>
+<li>
+<p>In this case we find 104 male fine-scale unit classes on TAW:</p>
+</li>
+</ol>
+<p><img src="https://i.ibb.co/fpNMZ75/Case-Study-Diversity-TAW-M.png" alt=""></p>
+<ol start="4">
+<li>Export this <em>Exemplars</em> view data, too. Click <strong>Export entire table (csv)</strong> on the active controls pane.</li>
+</ol>
+<p><img src="https://i.ibb.co/mNRnGfq/Export-Entire-Table-with-Clickerhand.png" alt=""></p>
+<h2 id="calculate-lbi-taw-repertoire-overlap">Calculate LBI-TAW repertoire overlap</h2>
+<p>The two downloaded <code>.csv</code> files will be in the downloads bar at the bottom of your browser. (You can also find them in your Downloads folder on your computer).</p>
+<p><img src="https://i.ibb.co/XFcD1PH/Downloaded-CSVs-Bottom.png" alt=""></p>
+<p>The files contain two columns: (1) the list of classes present in the collection, and (2) the counts of those classes.</p>
+<p><img src="https://i.ibb.co/5xyF97w/Two-Lists-Side-By-Side.png" alt=""></p>
+<p>There are several ways to find the classes shared between the two lists. You could do it in <em>Excel</em> with formulas. Here we will read the two lists into <em>R</em> and use <code>intersect</code> to find the classes common to both lists.</p>
+<ol>
+<li>Read in the LBI and TAW csv files (<em>Note</em>: replace filepaths with your own), and store them as objects <code>LBI_Males</code> and <code>TAW_Males</code>:</li>
+</ol>
+<pre><code>
+LBI_Males &lt;- read.csv(&quot;C:/Downloads/koe-exemplars-2019-03-07_15-26-57.csv&quot;,header=TRUE)
+
+TAW_Males &lt;- read.csv(&quot;C:/Downloads/koe-exemplars-2019-03-07_15-27-07.csv&quot;,header=TRUE)
+
+</code></pre><ol start="2">
+<li>Now we find the the classes that are common to both files. We are only interested in the first column (the list of classes) from each file; hence the <code>[,1]</code> in the code which extracts the first column:</li>
+</ol>
+<pre><code>
+Shared_classes &lt;- intersect(LBI_Males[,1], TAW_Males[,1])
+
+</code></pre><ol start="3">
+<li>The list of shared classes is now stored in the object <code>Shared_classes</code>, which looks like this:</li>
+</ol>
+<pre><code>&gt; Shared_classes
+ [1] &quot;Chump&quot;                           &quot;Click&quot;                          
+ [3] &quot;Cough(clickhigh)&quot;                &quot;Cough(short)&quot;                   
+ [5] &quot;Down(slightcurve+click)&quot;         &quot;Downsqueak(chumpbit)_Pipe(high)&quot;
+ [7] &quot;Ghh_Chump&quot;                       &quot;Pipe(A#[6])&quot;                    
+ [9] &quot;Pipe(A#[6]+)&quot;                    &quot;Pipe(A#[6]bent)&quot;                
+[11] &quot;Pipe(A[6])&quot;                      &quot;Pipe(A[6]+)&quot;                    
+[13] &quot;Pipe(B[6])&quot;                      &quot;Pipe(B[6]+)&quot;                    
+[15] &quot;Pipe(C[7])&quot;                      &quot;Pipe(D#[6])&quot;                    
+[17] &quot;Pipe(D#[6]+)&quot;                    &quot;Pipe(D[6])&quot;                     
+[19] &quot;Pipe(D[6]+)&quot;                     &quot;Pipe(D[6]bent)&quot;                 
+[21] &quot;Pipe(D[7])&quot;                      &quot;Pipe(E[6])&quot;                     
+[23] &quot;Pipe(F#[6])&quot;                     &quot;Pipe(F#[6]+)&quot;                   
+[25] &quot;Pipe(F#[7]+)&quot;                    &quot;Pipe(G#[6]+)&quot;                   
+[27] &quot;Pipe(G[6])&quot;                      &quot;Pipe(G[6]+)&quot;                    
+[29] &quot;Pipe_Upslope_Pipe&quot;               &quot;Stutter&quot;                        
+[31] &quot;Stutter_Stutter(LBITAW+nownow)&quot;  &quot;Stutter_Stutter_Stutter&quot;        
+[33] &quot;Tink&quot;                            &quot;UNKNOWN&quot;                        
+[35] &quot;Upsqueak(cleanglass)&quot;           
+
+</code></pre><p>There are 35 Tawharanui male unit classes shared with Hauturu (<strong>34%</strong> of the male Tawharanui population repertoire; 35/104 = 34%).</p>
+<p>In other words, since colonization <strong>66%</strong> of the unit classes sung by males at Tawharanui appear to have been innovated.</p>
+<h1 id="evaluating-song-structure-in-bellbirds">Evaluating song structure in bellbirds</h1>
+<p><a href="#table-of-contents">Back to table of contents</a></p>
+<p><img src="https://i.ibb.co/Z6rPBMF/Network-Headerimage.png" alt=""></p>
+<p>To help you analyse sequence structure in detail, <em>Mine sequence structure</em> view shows the strength of association between unit classes using the cSPADE algorithm (Zaki, 2001), and produces network visualisations.</p>
+<p><strong>Here we will use <em>Mine sequence structure</em> to compare the sequence structure of male and female bellbird song on Tiritiri Matangi Island (TMI).</strong></p>
+<p>First, <a href="#what-is-the-overall-unit-diversity-for-male-and-female-bellbirds-across-all-seven-sites">exactly as in previous sections</a>, we need to make collections (database subsets) for males and females on TMI.</p>
+<h2 id="make-a-subset-collection-for-males-on-tmi">Make a subset collection for <em>males</em> on TMI:</h2>
+<ol>
+<li>
+<p>Go to <em>Unit table</em> view (<em>Classify &amp; manage units</em> &gt; <em>Unit table</em>)</p>
+</li>
+<li>
+<p>Type <code>sex:M; song:TMI_</code> in the filter</p>
+</li>
+<li>
+<p>In the resulting unit table, select all rows by clicking the checkbox header</p>
+</li>
+<li>
+<p>Click <strong>Make a Collection from selected units</strong> on the controls pane</p>
+</li>
+<li>
+<p>Name the collection something logical and unique and click <strong>Set</strong></p>
+</li>
+<li>
+<p>Deselect all rows by unchecking the checkbox header, or pressing <code>Ctrl</code>+<em>`</em></p>
+</li>
+</ol>
+<h2 id="make-a-subset-collection-for-females-on-tmi">Make a subset collection for <em>females</em> on TMI:</h2>
+<ol>
+<li>
+<p>Replace the filter with <code>sex:F; song:TMI_</code></p>
+</li>
+<li>
+<p>In the resulting unit table, select all rows by clicking the checkbox header</p>
+</li>
+<li>
+<p>Click <strong>Make a Collection from selected units</strong> on the controls pane</p>
+</li>
+<li>
+<p>Name the collection something logical and unique and click <strong>Set</strong></p>
+</li>
+<li>
+<p>Deselect all rows by unchecking the checkbox header, or pressing <code>Ctrl</code>+<em>`</em></p>
+</li>
+</ol>
+<h2 id="produce-cspade-table-and-network-for-males-on-tmi">Produce cSPADE table and network for <em>males</em> on TMI:</h2>
+<ol>
+<li>Click on <em>Mine sequence structure</em> in the navigation pane.</li>
+</ol>
+<p><img src="https://i.ibb.co/vmkmD3m/Mine-Sequence-Structure-Button.png" alt=""></p>
+<ol start="2">
+<li>
+<p>Click on the <strong>Current database</strong> dropdown.</p>
+</li>
+<li>
+<p>Select your collection for TMI males, whatever you named it.</p>
+</li>
+</ol>
+<p><img src="https://i.ibb.co/4dyMJsZ/Case-Study-TMISequence2.png" alt=""></p>
+<p>You will see a table of class associations on the left, and a network visualisation on the right.</p>
+<p><img src="https://i.ibb.co/QpyGwQj/c-SPADEand-Network-1.png" alt=""></p>
+<p>The cSPADE output table enumerates the strength of association for sequences of units. For details of the cSPADE algorithm see <a href="#insert-proper-hyperlink">this previous section</a>.</p>
+<p>The interactive network visualisation shows all the 2-unit associations from the cSPADE table. The network models the direction and strength of association between pairs of units, across a population of songs (in this case, the population consists of males on TMI).</p>
+<p>Units are represented by nodes (the circles) which are joined by lines (edges) if the units occur <em>consecutively</em> within songs.   The order of units is indicated by arrow direction, and strength of association between units (<em>lift</em>) is represented by edge thickness.</p>
+<p>Again, see <a href="#">this section</a> to be reminded of definitions and <a href="#">this section</a> on adjusting network appearance.</p>
+<p>By default the network shows only those sequences that occur in at least 1% of songs. In this case, there are a high number of associations, leading to a cluttered network. We will increase the threshold to visualise only those associations that occur in <strong>more than 5%</strong> of songs.</p>
+<ol start="4">
+<li>Type <code>support:&gt;0.05</code> in the filter box and observe how the network is now much simpler:</li>
+</ol>
+<p><img src="https://i.ibb.co/LpS2fYh/Case-Study-Filtering-MNetwork.png" alt=""></p>
+<ol start="5">
+<li>Export the filtered subset of the cSPADE table by clicking <strong>Export filtered subset (csv)</strong> in the active controls pane:</li>
+</ol>
+<p><img src="https://i.ibb.co/dfYWrTM/Export-Filtered-Subset.png" alt=""></p>
+<h2 id="produce-cspade-table-and-network-for-females-on-tmi">Produce cSPADE table and network for <em>females</em> on TMI:</h2>
+<p>We want to compare networks for males and females side-by-side, so let&rsquo;s duplicate the current <em>Koe</em> browser tab to preserve the male network before we create the female network.</p>
+<ol>
+<li>Right-click the tab then click <strong>Duplicate</strong> from the dropdown menu (the menu will look different in different browsers).</li>
+</ol>
+<p><img src="https://i.ibb.co/bRVC4qn/Duplicate-Seq-Mining-Tab.png" alt=""></p>
+<ol start="2">
+<li>
+<p>If you are using two computer monitors, drag the new tab to the second monitor, so that you can see both simultaneously. One tab will be for the male network (already produced) and the other for the female network.</p>
+</li>
+<li>
+<p>On the tab you want to produce the female network, click on the <strong>Current database</strong> dropdown.</p>
+</li>
+<li>
+<p>Select your collection for TMI females, whatever you named it.</p>
+</li>
+</ol>
+<p>Similarly to the male network, at the default threshold of 1% occurrence (present in at least 1% of songs), the network is cluttered with many associations: 
+<img src="https://i.ibb.co/MRNhKmN/c-SPADEand-Network-Fem.png" alt=""></p>
+<p>To be comparable with the male network, we will increase the threshold to visualise only those associations that occur in <strong>more than 5%</strong> of songs.</p>
+<ol start="5">
+<li>Type <code>support:&gt;0.05</code> in the filter box</li>
+</ol>
+<p><img src="https://i.ibb.co/2MqXCrg/Case-Study-Filtering-FNetwork.png" alt=""></p>
+<ol start="6">
+<li>Export the filtered subset of the cSPADE table by clicking <strong>Export filtered subset (csv)</strong> in the active controls pane:</li>
+</ol>
+<p><img src="https://i.ibb.co/dfYWrTM/Export-Filtered-Subset.png" alt=""></p>
+<h2 id="compare-male-and-female-networks">Compare male and female networks</h2>
+<p><img src="https://i.ibb.co/wBQNBSc/Male-Female-Network.png" alt=""></p>
+<p>At this threshold, the songs of both sexes contain some nodes with many connections; these unit classes (e.g. <em>Dragon</em> in males, <em>Stutter</em> in females) can be preceded/followed by many different classes.</p>
+<p>Both sexes also contain nodes which are strictly preceded/followed by a certain class; for example, in males <em>Waah(mid+A)</em> is always followed by <em>Dragon</em>, and in females <em>Peakwhistle(TMI)</em> is always preceded by <em>Stutter</em>.</p>
+<p>We can see that both sexes sing repeated units, represented by looped lines:</p>
+<p><strong>For males</strong>: <em>Dragon</em>, <em>Stutter</em>, <em>Cough(TMI+click)</em> 
+<strong>For females</strong>: <em>Stutter</em>, <em>Stutter(wavey)</em>, <em>Pipe(D#[7]+)</em>, <em>Pipe(E[7])</em></p>
+<p>A notable difference in the female network is this chain of strongly connected nodes, upper left-hand-side of the graph:</p>
+<p><code>Killem</code> → <code>Pipe(C#[7]+)</code> → <code>Upsqueak_Flatsqueak(1)</code> → <code>Downsqueak(twopart)</code> → <code>Down_Click_Stepdown</code> → <code>Stepdown(C[7]-C[6])</code>.</p>
+<p>The thick lines between these pairs of classes on the graph indicate high values of <em>lift</em>; that is, each two-unit association occurs much more often than would be expected by chance. Note this does not necessarily imply that the entire chain occurs in any one song, but rather that each consecutive pair is strongly associated.</p>
+<h2 id="explore-male-cspade-table">Explore male cSPADE table</h2>
+<ol>
+<li>
+<p>Find the male cSPADE table <code>csv</code> file you previously exported. It will be in your computer&rsquo;s Downloads folder.</p>
+</li>
+<li>
+<p>Open it in <em>Excel</em></p>
+</li>
+<li>
+<p>Sort the table by the <strong>chainlength</strong> column from lowest to highest, then secondarily by the <strong>support</strong> column from highest to lowest:</p>
+</li>
+</ol>
+<p><img src="https://i.ibb.co/YWzM8jN/Sort-Excel.png" alt=""></p>
+<p>The sorted data should look like this:</p>
+<p><img src="https://i.ibb.co/TWKWYg4/Malec-SPADEin-Excel-1.png" alt=""></p>
+<p>These associations at the top of the table (with chain length of 1) are not true associations <em>per se</em>, as they are only one unit long. They give useful information about how the number and proportion of songs those unit classes occur in (transcount and support columns, respectively). However, confidence and lift values cannot be calculated because these require associations with two or more units (hence the nonsensical <strong>-1</strong> values in these columns).</p>
+<p><code>__PSEUDO_START__</code> and <code>__PSEUDO_END__</code> are not true classes, but mark the start and end points of the song. As every song has a start and end, both have a support of <strong>1</strong> (meaning they occur in 100% of songs).</p>
+<p>The third row of the table shows that <code>Dragon</code> occurs in 201 songs (transcount column), which is 51.7% of all the songs in the male TMI population (support column). By this measure it is the most prevalent male syllable class on TMI; next most prevalent are <code>Cough(TMI+click)</code> (40.1% of songs), <code>Downsqueak(hook)</code> (34.7% of songs), and so on down the list.</p>
+<ol start="3">
+<li>Scroll down or filter the table to find associations with a chain length of 2. These are the associations visualised in the network diagram.</li>
+</ol>
+<p><img src="https://i.ibb.co/Twdpk0X/Malec-SPADEin-Excel-2.png" alt=""></p>
+<p>The sequence:</p>
+<p><code>Cough(TMI+click)</code> ⇒ <code>Downsqueak(hook)</code></p>
+<p>has a <strong>support</strong> of 0.32, which means this sequence occurs in 32% of songs.</p>
+<p>It has a <strong>confidence</strong> of 0.81, which means that when <code>Cough(TMI+click)</code> occurs, <code>Downsqueak(hook)</code> comes next in 81% of songs.</p>
+<p>It has a <strong>lift</strong> of 2.33, which means that <code>Downsqueak(hook)</code> follows <code>Cough(TMI+click)</code> in 2.33 times the number of songs as expected by chance.</p>
+<p><strong>Note</strong>: In the notation of Zaki (2001) this association would be written
+[(<code>Cough(TMI+click)</code>)]⇒[(<code>Cough(TMI+click)</code>)(<code>Downsqueak(hook)</code>)]</p>
+<p><em><strong>Male song tends to start with one of four syllable types</strong></em></p>
+<p>By looking at two-unit associations beginning with <code>__PSEUDO_START__</code>, we can see which syllables tend to occur at the start of male songs:</p>
+<p>The &lsquo;sequence&rsquo;</p>
+<p><code>__PSEUDO_START__</code> ⇒ <code>Stutter</code></p>
+<p>has a <strong>support</strong> of 0.29, which means that in 29% of songs in this male population, <code>__PSEUDO_START__</code> ⇒ <code>Stutter</code> occurs (that is, <code>Stutter</code> is the starting syllable).</p>
+<p>It also has a <strong>confidence</strong> of 0.29, which means given <code>__PSEUDO_START__</code>, <code>Stutter</code> follows in 29% of songs (in this case, this means the same as support).</p>
+<p>It has a <strong>lift</strong> of 0.95, which means that <code>Stutter</code> follows <code>__PSEUDO_START__</code> in 95% as many songs as expected by chance, based on the frequency of <code>Stutter</code> in the dataset.</p>
+<p>The other three starting syllables are:</p>
+<p><code>__PSEUDO_START__</code> ⇒ <code>Cough(TMI+click)</code> (support=0.23, confidence=0.23, lift=0.57)</p>
+<p><code>__PSEUDO_START__</code> ⇒ <code>Downsqueak(bitunder)_Pipe(low)</code> (support=0.10, confidence=0.10, lift=0.45)</p>
+<p><code>__PSEUDO_START__</code> ⇒ <code> Waah(rough)</code> (support=0.08, confidence=0.08, lift=0.30)</p>
+<p><em><strong>Three syllable types tend to end male song</strong></em></p>
+<p>By looking at two-unit associations ending with <code>__PSEUDO_END__</code>, we can see which syllables tend to occur at the end of male songs:</p>
+<p><code>Moustache</code> ⇒ <code>__PSEUDO_END__</code> (support=0.12, confidence=0.81, lift=0.81)</p>
+<p><code>Dragon</code> ⇒ <code>__PSEUDO_END__</code> (support=0.30, confidence=0.57, lift=0.57)</p>
+<p><code>Cough(TMI+click)</code> ⇒ <code>__PSEUDO_END__</code> (support=0.12, confidence=0.29, lift=0.29)</p>
+<ol start="4">
+<li>Scroll down the table to find associations with a chain length of 3.</li>
+</ol>
+<p><img src="https://i.ibb.co/P9XNV13/Malec-SPADEin-Excel-3.png" alt=""></p>
+<p>The sequence:</p>
+<p><code>Trill ⇒ Dragon</code> ⇒ <code>Moustache</code></p>
+<p>has a <strong>support</strong> of 0.08, which means this sequence occurs in 8% of songs.</p>
+<p>It has a <strong>confidence</strong> of 0.86, which means that when <code>Trill ⇒ Dragon</code> occurs, <code>Moustache</code> comes next in 86% of songs.</p>
+<p>It has a <strong>lift</strong> of 5.9, which means that <code>Moustache</code> follows <code>Trill ⇒ Dragon</code> in 5.9 times the number of songs as expected by chance.</p>
+<p><strong>Note</strong>: In the notation of Zaki (2001) this association would be written
+[(<code>Trill</code>)(<code>Dragon</code>)]⇒[(<code>Trill</code>)(<code>Dragon</code>)(<code>Moustache</code>)]</p>
+<h2 id="explore-female-cspade-table">Explore female cSPADE table</h2>
+<ol>
+<li>
+<p>Find the female cSPADE table <code>csv</code> file you previously exported. It will be in your computer&rsquo;s Downloads folder.</p>
+</li>
+<li>
+<p>Open it in <em>Excel</em></p>
+</li>
+<li>
+<p>Sort the table by the <strong>chainlength</strong> column from lowest to highest, then secondarily by the <strong>support</strong> column from highest to lowest:</p>
+</li>
+</ol>
+<p><img src="https://i.ibb.co/YWzM8jN/Sort-Excel.png" alt=""></p>
+<p>The sorted data should look like this:</p>
+<p><img src="https://i.ibb.co/Y0Rj4Qv/Femalec-SPADEin-Excel-1.png" alt=""></p>
+<p>The third row of the table shows that <code>Stutter</code> occurs in 129 songs (transcount column), which is 93.4% of all the songs in the female TMI population (support column). By this measure it is the most prevalent female syllable class on TMI (compared to 51.7% for the most prevalent class in males).</p>
+<p>The next most prevalent female classes are <code>Chiup</code> (59.4% of songs), <code>Downcurve(doublevoiced)</code> (36.2% of songs), and so on down the list.</p>
+<ol start="3">
+<li>Scroll down to find associations with a chain length of 2. These are the associations visualised in the network diagram.</li>
+</ol>
+<p><img src="https://i.ibb.co/yyKCWr8/Femalec-SPADEin-Excel-2.png" alt=""></p>
+<p>Here we can see the importance of <code>Stutter</code> syllable types for the structure of female bellbird song.</p>
+<p><em><strong>Stutter almost always starts female songs</strong></em></p>
+<p><code>__PSEUDO_START__</code> ⇒ <code>Stutter</code></p>
+<p>has a <strong>support</strong> of 0.91, which means that in 91% of songs in this population, <code>Stutter</code> is the starting syllable.</p>
+<p>It also has a <strong>confidence</strong> of 0.91, which means given the start of a song (<code>__PSEUDO_START__</code>), <code>Stutter</code> follows in 91% of cases.</p>
+<p>It has a <strong>lift</strong> of 0.97, which means that <code>Stutter</code> follows <code>__PSEUDO_START__</code> 97% as often as expected by chance.</p>
+<p><em><strong>Stutter tends to repeat in female songs</strong></em></p>
+<p><code>Stutter</code> ⇒ <code>Stutter</code> is common (support=0.85, confidence=0.91, lift=0.97).</p>
+<p>In fact, if we scroll down the table we see that <code>Stutter</code> is commonly repeated many times:</p>
+<p><img src="https://i.ibb.co/9whfNJ9/Femalec-SPADEin-Excel-3.png" alt=""></p>
+<p>For example,</p>
+<p><code>Stutter ⇒ Stutter ⇒ Stutter ⇒ Stutter ⇒ Stutter ⇒ Stutter</code> ⇒ <code>Stutter</code></p>
+<p>occurs in 29% of songs</p>
+<p><code>Stutter ⇒ Stutter ⇒ Stutter ⇒ Stutter ⇒ Stutter ⇒ Stutter ⇒ Stutter ⇒ Stutter</code> ⇒ <code>Stutter</code></p>
+<p>occurs in 15% of songs.</p>
+<p><em><strong>Stutter sometimes ends female songs</strong></em></p>
+<p><code>Stutter</code> ⇒ <code>__PSUEDO_END__</code> occurs in 38% of songs (support=0.38, confidence=0.40, lift=0.40).</p>
+<h1 id="tutorial-conclusions">Tutorial conclusions</h1>
+<p><a href="#table-of-contents">Back to table of contents</a></p>
+<p>These examples have illustrated a some simple ways to assess unit repertoire size and repertoire sharing, and demonstrated how to examine sequence structure using the cSPADE algorithm and network visualisations. Data exported from <em>Koe</em> enable many more kinds of analyses in other software.</p>
+<p>For example:</p>
+<ul>
+<li>
+<p><em>EstimateS</em> (<a href="http://viceroy.eeb.uconn.edu/estimates/">http://viceroy.eeb.uconn.edu/estimates/</a>) can be used to estimate total unit richness in a population by robustly extrapolating from the <em>Koe</em> classification data.</p>
+</li>
+<li>
+<p>From the unit features extracted by <em>Koe</em>, distributions of unit features could be plotted in <em>R</em> or <em>Python</em> and compared between groups</p>
+</li>
+<li>
+<p>In <em>Excel</em> unusual syntax could be identified in the cSPADE table as one means of identifying potential classification errors</p>
+</li>
+</ul>
+<hr>
+
+
+
+
+
+
+
+<ul class="children children-li">
+	
+
+	
+		
+	
+
+	
+
+	
+		
+	
+
+	
+</ul>
+
+
+
+
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1586406323"></script>
+    <script src="/js/perfect-scrollbar.min.js?1586406323"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1586406323"></script>
+    <script src="/js/jquery.sticky.js?1586406323"></script>
+    <script src="/js/featherlight.min.js?1586406323"></script>
+    <script src="/js/highlight.pack.js?1586406323"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1586406323"></script>
+    <script src="/js/learn.js?1586406323"></script>
+    <script src="/js/hugo-learn.js?1586406323"></script>
+
+    <link href="/mermaid/mermaid.css?1586406323" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1586406323"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+  </body>
+</html>
